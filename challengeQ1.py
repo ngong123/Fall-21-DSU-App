@@ -44,6 +44,8 @@ df6.sort_values(['review_scores_value','cancellation_policy', 'host_for_x_days',
 print(df6)
 df6.to_excel('best airbnb selections for you.xlsx')
 
+# Depending on your user inputs to questions, the best airbnb selections will be tailored for you.
+
 
 
 

@@ -28,7 +28,7 @@ dfTownhousePrices = pd.DataFrame(townhousePrices)
 th = dfTownhousePrices.to_numpy()
 
 ttest = st.ttest_ind(a=loft, b=th, equal_var=True)
-print(ttest)
+print("fuck u")
 # statistic=array([0.69836398]), pvalue=array([0.49070955
 
 # manual check using Ti84
